@@ -7,18 +7,6 @@ public class Customer {
 	private String customercode;
 	private String customername;
 	private ArrayList<Account> accountList;
-	
-//	public Customer(String accountNo, String accounttype, double accountbal, Product product) {
-//		super(accountNo, accounttype, accountbal, product);
-//		// TODO Auto-generated constructor stub
-//		this.customercode=customercode;
-//		this.customername=customername;
-//		this.accountList=accountList;
-//	}
-	
-	
-
-
 	public String getCustomercode() {
 		return customercode;
 	}

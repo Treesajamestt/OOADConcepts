@@ -297,110 +297,13 @@ Scanner scanner = new Scanner(System.in);
 			System.out.println("***************************************************************");
 //			System.out.println(customer.getCustomercode()+" \t\t\t\t"+customer.getCustomername()+" \t\t\t\t");
 			for(Account account:accountList) {
-				System.out.println(customer.getCustomercode()+" \t\t\t\t"+customer.getCustomername()+" \t\t\t\t"+
-				account.getAccounttype()+"\t\t\t\t"+account.getAccountbal());
+				System.out.println(customer.getCustomercode()+" \t\t\t"+customer.getCustomername()+" \t\t\t"+
+				account.getAccounttype()+"\t\t\t"+account.getAccountbal());
 			}
 			
 			
 		}
 	}
 
-
-//	public static Customer createCustomer(ArrayList<Product> productList) {
-//		// TODO Auto-generated method stub
-//		Scanner scanner = new Scanner(System.in);
-//		System.out.println("Enter customer code: ");
-//		String customercode = scanner.nextLine();
-//		System.out.println("Enter customer Name: ");
-//		String customername = scanner.nextLine();
-//		char customerMainMenu='y';
-//		ArrayList<Account> accountList=new ArrayList<Account>();
-//		do {
-//			//Product product=new Product();
-//			System.out.println("Enter account No: ");
-//			String accountNo = scanner.nextLine();
-//			System.out.println("Enter account Type: ");
-//			String accounttype = scanner.nextLine();
-//			System.out.println("Enter account Balance: ");
-//			double accountbal = scanner.nextDouble();
-//			
-//			for(Product productlist:productList) {
-//			  System.out.println(productlist+"\n");
-//				
-//			}
-//			System.out.println("\n 1.SavingsMax Account \n 2.Current Account \n 3.Loan Account");
-//			int productcode = scanner.nextInt();
-//			String productName = "";
-//		switch(productcode) {
-//			case 1:productName="SavingsMax Accounts";
-//			break;
-//			case 2:productName="Current Accounts";
-//			break;
-//			case 3:productName="Loan Accounts";
-//			break;
-//			default:
-//			
-//			}
-//			for(Product productItem:productList) {
-//				productName = product.getProductName();
-//				product=productItem;
-//			}
-//			
-//			
-//			Account acoount= new Account(accountNo,accountNo,accountbal,product);
-//			accountList.add(acoount);
-//			System.out.println("Do you want to continue: ");
-//			customerMainMenu=scanner.next().charAt(0);
-//			
-//		}while(customerMainMenu=='y');
-//		Customer customer=new Customer(customercode,customername,accountList);
-//		System.out.println(customer.getCustomername()+" have following Services");
-//		for (Account account:customer.getAccountList()) {
-//			Product productTest = account.getProduct();
-//			System.out.println("Product name is"+productTest.getProductName());
-//			
-//		
-//		for(Service service:productTest.getServiceList()) {
-//			System.out.println(service.getServiceName());
-//		}
-//		}
-//	
-//
-//
-//
-//	return customer;
-//	}
-
-
-
-//	public static void manageAccount(Customer customer) {
-//		// TODO Auto-generated method stub
-//		Scanner scanner = new Scanner(System.in);
-//		System.out.println("Enter customerId:");
-//		String customerID=scanner.nextLine();
-//		if(customerID==customer.getCustomercode()) {
-//			System.out.println(customer.getCustomername());
-//			for (Account account:customer.getAccountList()) {
-//				System.out.println(customer.getProduct());
-//			}
-//			System.out.println("Enter Choice Customer wants:");
-//			System.out.println(customer.getCustomercode());
-//			char manageChoice='y';
-//			do {
-//				System.out.println("\n1.Deposit Money \n2.Withdraw Money \n3.Balance");
-//				int manageAccountChoice=scanner.nextInt();
-//				switch(manageAccountChoice) {
-//				case 1:{System.out.println("Deposit");
-//			      System.out.println("Enter amount user needs to Deposit: ");
-//			      Double deposit=scanner.nextDouble();
-//			      if(productName){
-//			    	  
-//			      }
-//				}
-//				}
-//			}while(manageChoice=='y');
-//			}
-//			
-//		}
 	}
 

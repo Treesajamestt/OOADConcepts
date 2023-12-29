@@ -23,9 +23,19 @@ public class MainUtility {
 		ArrayList<Product> productList=new ArrayList<Product>();
 		ArrayList<Account> accountList=new ArrayList<Account>();
 		Customer customer=null;
+		System.out.println("******Welcome To Bank************");
 		char mainChoice='y';
 		do {
-		System.out.println("1.Create Service 2. Create product 3.create customer 4.manage account 5.Display customer");
+			
+		System.out.println("1.Create Service"
+				+ "\n"
+				+ "2.Create Product"
+				+ "\n"
+				+ "3.Create Customer"+"4.Manage Accounts"+"\n"
+
+                +"5.Display Customer"+"\n"
+
+                +"6.Exit");
 		Scanner scanner = new Scanner(System.in);
 		int choice;
 		choice= scanner.nextInt();
